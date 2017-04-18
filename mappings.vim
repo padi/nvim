@@ -7,6 +7,16 @@ let maplocalleader = ' '
 " Mappings Taken From YADR starts below
 " =========================
 
+" ---------------
+" Insert Mode Mappings
+" ---------------
+
+" Let's make escape better, together.
+inoremap jk <Esc>
+inoremap JK <Esc>
+inoremap Jk <Esc>
+inoremap jK <Esc>
+
 " ==== NERD tree
 " Open the project tree and expose current file in the nerdtree with Ctrl-\
 " " calls NERDTreeFind iff NERDTree is active, current window contains a modifiable file, and we're not in vimdiff

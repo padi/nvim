@@ -29,5 +29,8 @@ Plug 'tpope/vim-surround'
 Plug 'janko-m/vim-test'
 Plug 'tpope/vim-fugitive'
 
+" Ruby
+Plug 'hwartig/vim-seeing-is-believing'
+
 " Initialize plugin system
 call plug#end()
