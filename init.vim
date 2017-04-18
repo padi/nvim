@@ -1,24 +1,20 @@
+if has('nvim')
+  let g:vimdir = "~/.config/nvim"
+else
+  let g:vimdir = "~/.vim"
+endif
 
+" All of the plugins are installed with Plug from this file.
+exec "source " . g:vimdir . "/plug.vim"
 
+" All hotkeys, not dependant on plugins, are mapped here.
+exec "source " . g:vimdir . "/mappings.vim"
+exec "source " . g:vimdir . "/plugin_settings.vim"
 
-
-
-"       HOW TO DO 90% OF WHAT PLUGINS DO (WITH JUST VIM)
-
-"                          Max Cantor
-
-"               NYC Vim Meetup -- August 3, 2016
-
-
-
-
-
-
-
-
-
-
-
+" =======================================================
+" =======================================================
+" Features from mcantor/no_plugins
+"
 " FEATURES TO COVER:
 " - Fuzzy File Search
 " - Tag jumping
@@ -27,47 +23,16 @@
 " - Snippets
 " - Build Integration (if we have time)
 
-
-
-
-
-
-
-
-
-
-" GOALS OF THIS TALK:
-" - Increase Vim understanding
-" - Offer powerful options
-
-" NOT GOALS OF THIS TALK:
-" - Hate on plugins
-" - Get people to stop using plugins
-
-
-
-
-
-" {{{ BASIC SETUP
+" =======================================================
 " BASIC SETUP:
-
 " enter the current millenium
 set nocompatible
-
 " enable syntax and plugins (for netrw)
 syntax enable
 filetype plugin on
 
-
-
-
-
-
-
-
-
+" =======================================================
 " FINDING FILES:
-
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
 set path+=**
@@ -83,8 +48,8 @@ set wildmenu
 " - :b lets you autocomplete any open buffer
 
 
+" =======================================================
 " TAG JUMPING:
-
 " Create the `tags` file (may need to install ctags first)
 command! MakeTags !ctags -R .
 
@@ -96,12 +61,8 @@ command! MakeTags !ctags -R .
 " THINGS TO CONSIDER:
 " - This doesn't help if you want a visual list of tags
 
-
-
-
-
+" =======================================================
 " AUTOCOMPLETE:
-
 " The good stuff is documented in |ins-completion|
 
 " HIGHLIGHTS:
@@ -113,12 +74,8 @@ command! MakeTags !ctags -R .
 " NOW WE CAN:
 " - Use ^n and ^p to go back and forth in the suggestion list
 
-
-
-
-
+" =======================================================
 " FILE BROWSING:
-
 " Tweaks for browsing
 let g:netrw_banner=0        " disable annoying banner
 let g:netrw_browse_split=4  " open in prior window
@@ -133,7 +90,7 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 " - check |netrw-browse-maps| for more mappings
 
 
-
+" =======================================================
 " SNIPPETS:
 
 " Read an empty HTML template and move cursor to title
@@ -144,20 +101,14 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 "   (with much fewer keystrokes)
 
 
-
-
-
-
-
-
-
+" =======================================================
 " BUILD INTEGRATION:
 
 " Steal Mr. Bradley's formatter & add it to our spec_helper
 " http://philipbradley.net/rspec-into-vim-with-quickfix
 
 " Configure the `make` command to run RSpec
-set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
+" set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
 " NOW WE CAN:
 " - Run :make to run RSpec
@@ -165,22 +116,4 @@ set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 " - :cc# to jump to error by number
 " - :cn and :cp to navigate forward and back
 
-
-
-
-
-"                          THANK YOU!
-
-"                    Download this file at:
-"                github.com/mcantor/no_plugins
-
-"                Follow me for kitten pictures:
-"                     twitter.com/mcantor
-
-"          Contact me at `max at maxcantor dot net` for:
-"                  - Consulting (Dev and PM)
-"                          - Tutoring
-"                     - Classroom Teaching
-"                     - Internal Training
-"                       - Encouragement
 
