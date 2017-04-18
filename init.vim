@@ -9,7 +9,12 @@ exec "source " . g:vimdir . "/plug.vim"
 
 " All hotkeys, not dependant on plugins, are mapped here.
 exec "source " . g:vimdir . "/mappings.vim"
-exec "source " . g:vimdir . "/plugin_settings.vim"
+
+" Plugin Settings
+exec "source " . g:vimdir . "/nerdtree.vim"
+" rking/ag.vim
+exec "source " . g:vimdir . "/ag.vim"
+exec "source " . g:vimdir . "/search.vim"
 
 " =======================================================
 " =======================================================

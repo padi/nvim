@@ -19,6 +19,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
+" Search
+Plug 'rking/ag.vim'
+
 " Editing
 Plug 'tpope/vim-surround'
 
