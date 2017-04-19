@@ -29,6 +29,9 @@ exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
 set number
 " adds relative line number
 set rnu
+" allow open buffers to be hidden
+" even if they're not saved
+set hidden
 
 " =======================================================
 " =======================================================
