@@ -10,7 +10,7 @@ exec "source " . g:vimdir . "/plug.vim"
 " All hotkeys, not dependant on plugins, are mapped here.
 exec "source " . g:vimdir . "/mappings.vim"
 
-" Plugin Settings
+" ============== Plugin Settings ==============
 exec "source " . g:vimdir . "/settings/nerdtree.vim"
 " rking/ag.vim
 exec "source " . g:vimdir . "/settings/ag.vim"
@@ -19,6 +19,10 @@ exec "source " . g:vimdir . "/search.vim"
 " skwp/greplace.vim
 exec "source " . g:vimdir . "/settings/greplace.vim"
 exec "source " . g:vimdir . "/settings/deocomplete.vim"
+
+" seeing_is_believing gem
+exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
+
 
 " TODO place these somewhere else later
 " adds line numbers
