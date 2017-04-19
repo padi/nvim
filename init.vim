@@ -11,9 +11,9 @@ exec "source " . g:vimdir . "/plug.vim"
 exec "source " . g:vimdir . "/mappings.vim"
 
 " Plugin Settings
-exec "source " . g:vimdir . "/nerdtree.vim"
+exec "source " . g:vimdir . "/settings/nerdtree.vim"
 " rking/ag.vim
-exec "source " . g:vimdir . "/ag.vim"
+exec "source " . g:vimdir . "/settings/ag.vim"
 exec "source " . g:vimdir . "/search.vim"
 
 " skwp/greplace.vim
