@@ -20,6 +20,12 @@ exec "source " . g:vimdir . "/search.vim"
 exec "source " . g:vimdir . "/settings/greplace.vim"
 exec "source " . g:vimdir . "/settings/deocomplete.vim"
 
+" TODO place these somewhere else later
+" adds line numbers
+set number
+" adds relative line number
+set rnu
+
 " =======================================================
 " =======================================================
 " Features from mcantor/no_plugins
