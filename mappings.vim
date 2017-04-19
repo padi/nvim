@@ -3,6 +3,10 @@
 let mapleader=','
 let maplocalleader = ' '
 
+" Just to beginning and end of lines easier. From http://vimbits.com/bits/16
+noremap H ^
+noremap L $
+
 " =========================
 " Mappings Taken From YADR starts below
 " =========================
@@ -60,4 +64,3 @@ let test#strategy = "neovim"
 
 " fzf-vim and fzf
 nnoremap ,r :Files<CR>
-
