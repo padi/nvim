@@ -23,6 +23,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'rking/ag.vim'
 Plug 'skwp/greplace.vim'
 
+" Autocomplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 " Editing
 Plug 'tpope/vim-surround'
 
