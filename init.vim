@@ -16,6 +16,9 @@ exec "source " . g:vimdir . "/nerdtree.vim"
 exec "source " . g:vimdir . "/ag.vim"
 exec "source " . g:vimdir . "/search.vim"
 
+" skwp/greplace.vim
+exec "source " . g:vimdir . "/settings/grep.vim"
+
 " =======================================================
 " =======================================================
 " Features from mcantor/no_plugins

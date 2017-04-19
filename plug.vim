@@ -21,6 +21,7 @@ Plug 'junegunn/fzf.vim'
 
 " Search
 Plug 'rking/ag.vim'
+Plug 'skwp/greplace.vim'
 
 " Editing
 Plug 'tpope/vim-surround'
