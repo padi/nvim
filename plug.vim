@@ -33,5 +33,8 @@ Plug 'tpope/vim-fugitive'
 " Ruby
 Plug 'hwartig/vim-seeing-is-believing'
 
+" Backround
+Plug 'wakatime/vim-wakatime'
+
 " Initialize plugin system
 call plug#end()
