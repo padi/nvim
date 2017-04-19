@@ -7,6 +7,9 @@ let maplocalleader = ' '
 noremap H ^
 noremap L $
 
+" Visually select all text
+nnoremap ,aa ggVG
+
 " =========================
 " Mappings Taken From YADR starts below
 " =========================
