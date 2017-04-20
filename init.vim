@@ -9,6 +9,8 @@ exec "source " . g:vimdir . "/plug.vim"
 
 " All hotkeys, not dependant on plugins, are mapped here.
 exec "source " . g:vimdir . "/mappings.vim"
+" Settings largely taken from YADR but not plugin specific
+exec "source " . g:vimdir . "/yadr.vim"
 
 " Plugin Settings
 exec "source " . g:vimdir . "/settings/nerdtree.vim"
