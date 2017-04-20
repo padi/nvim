@@ -12,7 +12,7 @@ exec "source " . g:vimdir . "/mappings.vim"
 " Settings largely taken from YADR but not plugin specific
 exec "source " . g:vimdir . "/yadr.vim"
 
-" Plugin Settings
+" ============== Plugin Settings ==============
 exec "source " . g:vimdir . "/settings/nerdtree.vim"
 " rking/ag.vim
 exec "source " . g:vimdir . "/settings/ag.vim"
@@ -22,11 +22,18 @@ exec "source " . g:vimdir . "/search.vim"
 exec "source " . g:vimdir . "/settings/greplace.vim"
 exec "source " . g:vimdir . "/settings/deocomplete.vim"
 
+" seeing_is_believing gem
+exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
+
+
 " TODO place these somewhere else later
 " adds line numbers
 set number
 " adds relative line number
 set rnu
+" allow open buffers to be hidden
+" even if they're not saved
+set hidden
 
 " =======================================================
 " =======================================================
