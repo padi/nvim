@@ -13,6 +13,8 @@ exec "source " . g:vimdir . "/mappings.vim"
 exec "source " . g:vimdir . "/yadr.vim"
 
 " ============== Plugin Settings ==============
+exec "source " . g:vimdir . "/settings/000_custom.vim"
+
 exec "source " . g:vimdir . "/settings/nerdtree.vim"
 " rking/ag.vim
 exec "source " . g:vimdir . "/settings/ag.vim"
@@ -24,7 +26,6 @@ exec "source " . g:vimdir . "/settings/deocomplete.vim"
 
 " seeing_is_believing gem
 exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
-
 
 " TODO place these somewhere else later
 " adds line numbers
