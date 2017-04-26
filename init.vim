@@ -19,18 +19,14 @@ exec "source " . g:vimdir . "/yadr.vim"
 
 " ============== Plugin Settings ==============
 exec "source " . g:vimdir . "/settings/000_custom.vim"
-
 exec "source " . g:vimdir . "/settings/nerdtree.vim"
-" rking/ag.vim
 exec "source " . g:vimdir . "/settings/ag.vim"
 exec "source " . g:vimdir . "/search.vim"
-
-" skwp/greplace.vim
 exec "source " . g:vimdir . "/settings/greplace.vim"
 exec "source " . g:vimdir . "/settings/deocomplete.vim"
-
 " seeing_is_believing gem
 exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
+exec "source " . g:vimdir . "/settings/tcomment.vim"
 
 " =======================================================
 " =======================================================
