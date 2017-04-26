@@ -1,8 +1,3 @@
-" Set leader to ,
-" Note: This line MUST come before any <leader> mappings
-let mapleader=','
-let maplocalleader = ' '
-
 " Just to beginning and end of lines easier. From http://vimbits.com/bits/16
 noremap H ^
 noremap L $

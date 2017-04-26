@@ -4,6 +4,11 @@ else
   let g:vimdir = "~/.vim"
 endif
 
+" Set leader to ,
+" Note: This line MUST come before any <leader> mappings
+let mapleader=','
+let maplocalleader = ' '
+
 " All of the plugins are installed with Plug from this file.
 exec "source " . g:vimdir . "/plug.vim"
 
