@@ -27,15 +27,6 @@ exec "source " . g:vimdir . "/settings/deocomplete.vim"
 " seeing_is_believing gem
 exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
 
-" TODO place these somewhere else later
-" adds line numbers
-set number
-" adds relative line number
-set rnu
-" allow open buffers to be hidden
-" even if they're not saved
-set hidden
-
 " =======================================================
 " =======================================================
 " Features from mcantor/no_plugins
