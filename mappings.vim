@@ -2,6 +2,12 @@
 noremap H ^
 noremap L $
 
+" Navigate vim windows with ctrl + motion keys
+nnoremap <silent> <C-h> <C-w>h
+nnoremap <silent> <C-l> <C-w>l
+nnoremap <silent> <C-k> <C-w>k
+nnoremap <silent> <C-j> <C-w>j
+
 " Visually select all text
 nnoremap ,aa ggVG
 
