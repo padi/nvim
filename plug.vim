@@ -22,6 +22,7 @@ Plug 'junegunn/fzf.vim'
 " Search
 Plug 'rking/ag.vim'
 Plug 'skwp/greplace.vim'
+Plug 'henrik/vim-indexed-search'
 
 " Autocomplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
