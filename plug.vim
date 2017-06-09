@@ -41,5 +41,8 @@ Plug 'hwartig/vim-seeing-is-believing'
 " Backround
 Plug 'wakatime/vim-wakatime'
 
+" Syntax Plugins
+Plug 'kchmck/vim-coffee-script'
+
 " Initialize plugin system
 call plug#end()
