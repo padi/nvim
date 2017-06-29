@@ -30,6 +30,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Editing
 Plug 'tpope/vim-surround'
 Plug 'tomtom/tcomment_vim'
+Plug 'tpope/tpope-vim-abolish'
 
 " Commmand Line
 Plug 'janko-m/vim-test'
