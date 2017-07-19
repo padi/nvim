@@ -8,6 +8,11 @@ set showmode                    "Show current mode down the bottom
 " set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+if has('nvim')
+  " Reload files changed outside vim when you're using terminal vim
+  " See: https://www.reddit.com/r/neovim/comments/468udc/i_wrote_a_very_simple_plugin_to_make_autoread/d0zm1n5/
+  autocmd FocusGained * silent! checktime 
+end
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
