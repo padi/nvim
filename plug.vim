@@ -39,6 +39,9 @@ Plug 'tpope/vim-fugitive'
 " Ruby
 Plug 'hwartig/vim-seeing-is-believing'
 
+" Javascript
+Plug 'Shutnik/jshint2.vim'
+
 " Backround
 Plug 'wakatime/vim-wakatime'
 
