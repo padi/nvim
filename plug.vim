@@ -39,14 +39,14 @@ Plug 'tpope/vim-fugitive'
 " Ruby
 Plug 'hwartig/vim-seeing-is-believing'
 
-" Javascript
-Plug 'Shutnik/jshint2.vim'
-
 " Backround
 Plug 'wakatime/vim-wakatime'
 
 " Syntax Plugins
 Plug 'kchmck/vim-coffee-script'
+" Try jshint in neomake for now
+" Plug 'Shutnik/jshint2.vim'
+Plug 'neomake/neomake'
 
 " Initialize plugin system
 call plug#end()
