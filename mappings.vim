@@ -40,8 +40,8 @@ nnoremap <silent> <C-\> :call OpenNerdTree()<CR>
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
 " this to vv and ss
-nnoremap <silent> vv <C-w>v
-nnoremap <silent> vs <C-w>s
+nnoremap <silent> vv :split<CR>
+nnoremap <silent> vs :vsplit<CR>
 " nnoremap <silent> ss <C-w>s
 
 " ============================
