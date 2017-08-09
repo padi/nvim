@@ -3,7 +3,7 @@ let g:neomake_javascript_enabled_makers = ['jshint']
 
 " Taken from the rubocop maker, adding --display-style-guide
 let g:neomake_ruby_rubocop_maker = {
-        \ 'args': ['--format', 'emacs', '--force-exclusion', '--display-style-guide'],
+        \ 'args': ['--format', 'emacs', '--force-exclusion', '--display-style-guide', '--display-cop-names'],
         \ 'errorformat': '%f:%l:%c: %t: %m,%E%f:%l: %m',
         \ 'postprocess': function('neomake#makers#ft#ruby#RubocopEntryProcess')
         \ }
