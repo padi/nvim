@@ -3,3 +3,4 @@
 " Cursor settings
 set cursorline " underline current line where cursor is
 set ruler " coordinates of current cursor
+set mouse=a
