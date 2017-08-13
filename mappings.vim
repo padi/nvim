@@ -57,6 +57,8 @@ nnoremap <silent> ,cn :let @* = expand("%:t")<CR>
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
 
+" Ctrl+C to easily copy selected text to clipboard
+vnoremap <C-c> "*y
 
 " ==========================
 " Mappings For Other Plugins
