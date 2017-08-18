@@ -38,6 +38,7 @@ Plug 'tpope/vim-fugitive'
 
 " Ruby
 Plug 'hwartig/vim-seeing-is-believing'
+Plug 'tpope/vim-bundler'
 
 " Backround
 Plug 'wakatime/vim-wakatime'
