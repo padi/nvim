@@ -44,7 +44,9 @@ Plug 'tpope/vim-bundler'
 Plug 'wakatime/vim-wakatime'
 
 " Syntax Plugins
+Plug 'isRuslan/vim-es6'
 Plug 'kchmck/vim-coffee-script'
+Plug 'posva/vim-vue'
 " Try jshint in neomake for now
 " Plug 'Shutnik/jshint2.vim'
 Plug 'neomake/neomake'
