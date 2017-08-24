@@ -70,3 +70,8 @@ let test#strategy = "neovim"
 
 " fzf-vim and fzf
 nnoremap ,r :Files<CR>
+
+" Automatically close HTML tags using Omni completion
+" http://vim.wikia.com/wiki/Auto_closing_an_HTML_tag
+" http://vim.wikia.com/wiki/Omni_completion
+imap <C-Space> </<C-x><C-o>
