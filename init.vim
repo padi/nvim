@@ -27,7 +27,6 @@ exec "source " . g:vimdir . "/settings/deocomplete.vim"
 " seeing_is_believing gem
 exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
 exec "source " . g:vimdir . "/settings/tcomment.vim"
-" exec "source " . g:vimdir . "/settings/jshint2.vim"
 exec "source " . g:vimdir . "/settings/neomake.vim"
 
 " =======================================================
