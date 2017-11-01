@@ -13,4 +13,4 @@ let g:neomake_ruby_enabled_makers = ['rubocop']
 autocmd! BufWritePost * Neomake
 
 " Open the window automatically when Neomake is run
-let g:neomake_open_list = 2
+" let g:neomake_open_list = 2
