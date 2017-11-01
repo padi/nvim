@@ -28,6 +28,7 @@ exec "source " . g:vimdir . "/settings/deocomplete.vim"
 exec "source " . g:vimdir . "/settings/seeing_is_believing.vim"
 exec "source " . g:vimdir . "/settings/tcomment.vim"
 exec "source " . g:vimdir . "/settings/neomake.vim"
+exec "source " . g:vimdir . "/settings/vim-test.vim"
 
 " =======================================================
 " =======================================================
