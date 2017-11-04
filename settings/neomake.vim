@@ -1,5 +1,5 @@
 " https://github.com/neomake/neomake#configuration
-let g:neomake_javascript_enabled_makers = ['jshint']
+let g:neomake_javascript_enabled_makers = []
 
 " Taken from the rubocop maker, adding --display-style-guide
 let g:neomake_ruby_rubocop_maker = {
