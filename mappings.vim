@@ -64,7 +64,7 @@ vnoremap <C-c> "*y
 " Mappings For Other Plugins
 " ==========================
 " fzf-vim and fzf
-nnoremap ,r :Files<CR>
+nnoremap ,t :Files<CR>
 
 " Automatically close HTML tags using Omni completion
 " http://vim.wikia.com/wiki/Auto_closing_an_HTML_tag
