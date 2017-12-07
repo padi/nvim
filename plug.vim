@@ -20,7 +20,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Search
-Plug 'rking/ag.vim'
+Plug 'mileszs/ack.vim' " Replacement for: Plug 'rking/ag.vim'
 Plug 'skwp/greplace.vim'
 Plug 'henrik/vim-indexed-search'
 
