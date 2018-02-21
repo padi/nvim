@@ -42,8 +42,8 @@ nnoremap P P=`]<C-o>
 filetype plugin on
 filetype indent on
 
-" Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
+" Display tabs and trailing spaces, and end-of-line visually
+set list listchars=tab:▸-,trail:·,eol:¬
 
 set nowrap       "Don't wrap lines
 set linebreak    "Wrap lines at convenient points
