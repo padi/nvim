@@ -51,5 +51,8 @@ Plug 'posva/vim-vue'
 " Plug 'Shutnik/jshint2.vim'
 Plug 'neomake/neomake'
 
+" Display vertical lines at each indentation level
+Plug 'Yggdroot/indentLine'
+
 " Initialize plugin system
 call plug#end()
