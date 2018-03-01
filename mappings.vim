@@ -70,3 +70,7 @@ nnoremap ,t :Files<CR>
 " http://vim.wikia.com/wiki/Auto_closing_an_HTML_tag
 " http://vim.wikia.com/wiki/Omni_completion
 imap <C-Space> </<C-x><C-o>
+
+" This is a temporary solution for vim-vue
+" See: https://github.com/posva/vim-vue#my-syntax-highlighting-stops-working-randomly
+nmap <C-Space> :syntax sync fromstart<CR>
