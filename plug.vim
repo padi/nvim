@@ -5,8 +5,9 @@
 if has('nvim')
   " Use python plugins on OSX e.g. deoplete
   " http://ricostacruz.com/til/neovim-with-python-on-osx
-  let g:python2_host_prog = '/usr/local/bin/python'
+  let g:python_host_prog  = '/usr/local/bin/python2'
   let g:python3_host_prog = '/usr/local/bin/python3'
+  let g:ruby_host_prog = '~/.rbenv/versions/2.3.1/bin/neovim-ruby-host'
 endif
 
 
