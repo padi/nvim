@@ -7,3 +7,6 @@ set mouse=a
 
 " Automatically remove trailing whitespace
 autocmd BufWritePre * %s/\s\+$//e
+
+" Resize splits
+autocmd VimResized * wincmd =
