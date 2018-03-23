@@ -38,6 +38,7 @@ Plug 'janko-m/vim-test'
 Plug 'tpope/vim-fugitive'
 
 " Ruby
+Plug 'vim-ruby/vim-ruby'
 Plug 'hwartig/vim-seeing-is-believing'
 Plug 'tpope/vim-bundler'
 
