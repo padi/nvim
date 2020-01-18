@@ -43,6 +43,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'hwartig/vim-seeing-is-believing'
 Plug 'tpope/vim-bundler'
 
+" Elixir
+Plug 'elixir-editors/vim-elixir'
+
 " Backround
 Plug 'wakatime/vim-wakatime'
 
