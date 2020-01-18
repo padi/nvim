@@ -60,5 +60,8 @@ Plug 'neomake/neomake'
 " Display vertical lines at each indentation level
 Plug 'Yggdroot/indentLine'
 
+" Vimscript Test Framework
+Plug 'junegunn/vader.vim'
+
 " Initialize plugin system
 call plug#end()
